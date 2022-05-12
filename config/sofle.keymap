@@ -29,7 +29,7 @@
                 <&macro_press &kp LSHFT>,
                 <&macro_tap &kp I>,
                 <&macro_release &kp LSHFT>,
-                <&macro_tap &kp C &kp A &kp  &kp A &kp N &kp D &kp O &kp T &kp H &kp I &kp S &kp N0 &kp EXCL &kp EXCL>
+                <&macro_tap &kp C &kp A &kp N &kp D &kp O &kp T &kp H &kp I &kp S &kp N0 &kp EXCL &kp EXCL>
                 ;
         };
     };
