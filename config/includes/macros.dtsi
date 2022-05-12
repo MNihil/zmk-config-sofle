@@ -1,0 +1,46 @@
+/ {
+    
+    macros {
+        mc01ps1: mc01ps1 {
+            label = "ZM_mc01_psc01";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp C &kp A &kp N &kp D &kp O &kp T &kp H &kp I &kp S &kp N0 &kp EXCL &kp EXCL>
+                ;
+        };
+
+        mc01ps2: mc01ps2 {
+            label = "ZM_mc01_psc02";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp C &kp A &kp N &kp D &kp O &kp N0 &kp EXCL &kp EXCL>
+                ;
+        };
+
+        mc01ps3: mc01ps3 {
+            label = "ZM_mc01_psc02";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp V>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp A &kp D &kp I &kp R &kp E &kp N0 &kp EXCL &kp EXCL>
+                ;
+        };
+    };
+};
