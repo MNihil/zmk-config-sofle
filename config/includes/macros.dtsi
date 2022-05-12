@@ -30,7 +30,7 @@
         };
 
         mc01ps3: mc01ps3 {
-            label = "ZM_mc01_psc02";
+            label = "ZM_mc01_psc03";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
