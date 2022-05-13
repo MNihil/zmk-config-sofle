@@ -64,7 +64,7 @@
             wait-ms = <40>;
             tap-ms = <30>;
             bindings
-                =  <&mc02sc01>
+                =  <&mc02scre>
                 , <&macro_tap &kp C &kp S &kp P>
                 , <&macro_tap &p ENTER>
                 ;
