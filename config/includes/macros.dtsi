@@ -55,7 +55,7 @@
                 , <&macro_release &kp LGUI>
                 , <&macro_wait_time 400>
                 , <&macro_tap &kp DQT &kp C &kp COLON &kp BSLH &kp U &kp S &kp E &kp R &kp S &kp BSLH &kp M &kp A &kp X &kp I &kp M &kp I &kp L &kp I &kp A
-                   &kp N &kp O &kp R &kp O &kp D &kp R &kp I &kp G &kp U &kp E
+                   &kp N &kp O &kp R &kp O &kp D &kp R &kp I &kp G &kp U &kp E &kp Z &kp BSLH &kp D &kp E
                    &kp R &kp U &kp N &kp E &kp N &kp V &kp DOT &kp C &kp M &kp D &kp DQT &kp SPACE>
                 ;
         };
