@@ -57,8 +57,8 @@
                 ;
         };
 
-        mc02sc02: mc02sc02 {
-            label = "ZM_mc02_sc02";
+        mc02sc01: mc02sc01 {
+            label = "ZM_mc02_sc01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -69,5 +69,71 @@
                 , <&macro_tap &kp ENTER>
                 ;
         };
+
+        mc02sc11: mc02sc11 {
+            label = "ZM_mc02_sc11";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp S &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+         mc02sc21: mc02sc21 {
+            label = "ZM_mc02_sc21";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp S &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc02: mc02sc02 {
+            label = "ZM_mc02_sc02";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp C &kp P>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc12: mc02sc12 {
+            label = "ZM_mc02_sc12";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp C &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc22: mc02sc22 {
+            label = "ZM_mc02_sc22";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp C &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+    };
     };
 };
