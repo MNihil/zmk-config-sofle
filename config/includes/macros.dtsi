@@ -65,18 +65,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
-            tap-ms = <50>;
+            tap-ms = <30>;
             bindings
                 =  <&macro_press &kp LGUI>
                 , <&macro_tap &kp R>
                 , <&macro_release &kp LGUI>
-                , <&macro_wait_time 150>
                 , <&macro_tap &kp DQT &kp C &kp COLON &kp BSLH &kp U>
                 , <&macro_tap &kp S &kp E &kp R &kp S &kp BSLH &kp M>
                 , <&macro_tap &kp A &kp X &kp I &kp M &kp I &kp L>
                 , <&macro_tap &kp I &kp A &kp N &kp O &kp R &kp O>
                 , <&macro_tap &kp D &kp R &kp I &kp G &kp U &kp E>
-                , <&macro_tap &kp Z &kp BSLH &kp D &kp E &kp S>
+                , <&macro_tap &kp Z &kp D &kp E &kp S>
                 , <&macro_tap &kp K &kp T &kp O &kp P &kp BSLH &kp R &kp U>
                 , <&macro_tap &kp N &kp E &kp N &kp V &kp DOT &kp C &kp M>
                 , <&macro_tap &kp D &kp DQT &kp SPACE>
