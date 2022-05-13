@@ -76,10 +76,10 @@
                 , <&macro_tap &kp A &kp X &kp I &kp M &kp I &kp L>
                 , <&macro_tap &kp I &kp A &kp N &kp O &kp R &kp O>
                 , <&macro_tap &kp D &kp R &kp I &kp G &kp U &kp E>
-                , <&macro_tap &kp Z &kp BSLH &kp D &kp E &kp S &kp>
-                , <&macro_tap K &kp T &kp O &kp P &kp BSLH &kp R &kp U>
-                , <&macro_tap &kp N &kp E &kp N &kp V &kp DOT &kp C &kp>
-                , <&macro_tap M &kp D &kp DQT &kp SPACE>
+                , <&macro_tap &kp Z &kp BSLH &kp D &kp E &kp S>
+                , <&macro_tap &kp K &kp T &kp O &kp P &kp BSLH &kp R &kp U>
+                , <&macro_tap &kp N &kp E &kp N &kp V &kp DOT &kp C &kp M>
+                , <&macro_tap &kp D &kp DQT &kp SPACE>
                 , <&macro_tap &kp C &kp S &kp R &kp C &kp P &kp ENTER>
                 ;
         };
