@@ -43,6 +43,23 @@
                 ;
         };
 
+        mc02sc01: mc02sc01 {
+            label = "ZM_mc02_sc01";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp R>
+                , <&macro_release &kp LGUI>
+                , <&macro_wait_time 200>
+                , <&macro_tap &kp DQT &kp C &kp COLON &kp BSLH &kp U &kp S &kp E &kp R &kp S &kp BSLH &kp M &kp A &kp X &kp I &kp M &kp I &kp L &kp I &kp A
+                   &kp N &kp O &kp R &kp O &kp D &kp R &kp I &kp G &kp U &kp E &kp Z &kp BSLH &kp D &kp E &kp S &kp K &kp T &kp O &kp P &kp BSLH
+                   &kp R &kp U &kp N &kp E &kp N &kp V &kp DOT &kp C &kp M &kp D &kp DQT &kp SPACE>
+                ;
+        };
+
         mc02sc02: mc02sc02 {
             label = "ZM_mc02_sc02";
             compatible = "zmk,behavior-macro";
@@ -58,7 +75,8 @@
                 , <&macro_tap &kp A &kp X &kp I &kp M &kp I &kp L>
                 , <&macro_tap &kp I &kp A &kp N &kp O &kp R &kp O>
                 , <&macro_tap &kp D &kp R &kp I &kp G &kp U &kp E>
-                , <&macro_tap &kp Z &kp D &kp E &kp S>
+                , <&macro_wait_time 100>
+                , <&macro_tap &kp Z &kp BSLH &kp D &kp E &kp S>
                 , <&macro_tap &kp K &kp T &kp O &kp P &kp BSLH &kp R &kp U>
                 , <&macro_tap &kp N &kp E &kp N &kp V &kp DOT &kp C &kp M>
                 , <&macro_tap &kp D &kp DQT &kp SPACE>
