@@ -62,7 +62,7 @@
         };
 
         mc02sc02: mc02sc02 {
-            label = "ZM_mc02_sc01";
+            label = "ZM_mc02_sc02";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
