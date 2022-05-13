@@ -43,17 +43,17 @@
                 ;
         };
 
-        mc02sc01: mc02sc01 {
-            label = "ZM_mc02_sc01";
+        mc02scre: mc02scre {
+            label = "ZM_mc02_scre";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
-            tap-ms = <50>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LGUI>
                 , <&macro_tap &kp R>
                 , <&macro_release &kp LGUI>
-                , <&macro_tap &kp R &kp U &kp N &kp E &kp N &kp V>
+                , <&macro_tap &kp R &kp E &kp SPACE>
                 ;
         };
 
@@ -65,8 +65,8 @@
             tap-ms = <30>;
             bindings
                 =  <&mc02sc01>
-                , <&macro_tap &kp SPACE &kp C &kp S &kp R &kp C>
-                , <&macro_tap &kp P &kp ENTER>
+                , <&macro_tap &kp C &kp S &kp P>
+                , <&macro_tap &p ENTER>
                 ;
         };
     };
