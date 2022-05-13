@@ -39,7 +39,7 @@
 
         tdh01: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_Prod";
+            label = "TAP_DANCE_Curo_SRC";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&kp N1>, <&mc02sc01>, <&mc02sc11>, <&mc02sc21>;
@@ -47,7 +47,7 @@
 
         tdh02: tap_dance_3 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_Prod";
+            label = "TAP_DANCE_Curo_CAN";
             #binding-cells = <0>;
             tapping-term-ms = <150>;
             bindings = <&kp N2>, <&mc02sc02>, <&mc02sc12>, <&mc02sc22>;
