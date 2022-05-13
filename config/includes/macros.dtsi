@@ -43,6 +43,20 @@
                 ;
         };
 
+        mc02sc01: mc02sc01 {
+            label = "ZM_mc02_sc01";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <50>;
+            bindings
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp R>
+                , <&macro_release &kp LGUI>
+                , <&macro_wait_time 400>
+                ;
+        };
+
         mc02sc02: mc02sc02 {
             label = "ZM_mc02_sc02";
             compatible = "zmk,behavior-macro";
