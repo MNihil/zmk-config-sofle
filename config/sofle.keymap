@@ -39,7 +39,7 @@
 
         tdh01: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Maintain_Q";
+            label = "TAP_DANCE_Curo";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp N1>, <&mc02sc01>;
@@ -61,7 +61,7 @@
 &kp GRAVE &kp Q  &kp W    &kp E    &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O    &kp P    &kp BSPC
 &kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L    &kp SEMI &kp SQT
 &tdlkc    &kp Z  &kp X    &kp C    &kp V     &kp B      &mc01ps1  &mc01ps2  &kp N     &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                  &kp LGUI &kp LALT &tdma    &mo LOWER  &kp SPACE &kp RET   &mo RAISE &kp RCTRL &kp RALT  &kp RGUI
+                 &kp LGUI &kp LALT &tdma     &mo LOWER  &kp SPACE &kp RET   &mo RAISE &kp RCTRL &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;

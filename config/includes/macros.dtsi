@@ -50,9 +50,13 @@
             wait-ms = <40>;
             tap-ms = <50>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp F1>
-                , <&macro_release &kp LALT>
+                = <&macro_press &kp LGUI>
+                , <&macro_tap &kp R>
+                , <&macro_release &kp LGUI>
+                , <&macro_wait_time 400>
+                , <&macro_tap &kp DQT &kp C &kp COLON &kp BSLH &kp P &kp R &kp O &kp G &kp R &kp A &kp M &kp SPACE &kp F &kp I &kp L &kp E &kp S &kp SPACE &kp LPAR>
+                , <&macro_tap &kp N8 &kp N6 &kp LPAR &kp BSLH &kp C &kp I &kp T &kp R &kp I &kp X>
+                //"c:\program files (x86)\citrix\ica client\selfserviceplugin\selfservice.exe" -launch -reg software\microsoft\windows\currentversion\uninstall\xa76intern-d0e025b3@@controller.curo_1 -startmenuShortcut
                 ;
         };
 
