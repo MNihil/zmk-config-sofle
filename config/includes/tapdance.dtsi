@@ -88,7 +88,7 @@
 
         tdh17: tap_dance_17 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_S_VWR_USAC";
+            label = "TAP_DANCE_CURIA_SERV07";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&mc03sv07>;
