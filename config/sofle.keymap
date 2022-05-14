@@ -10,6 +10,7 @@
 
 // Personal includes
 #include "includes/macros.dtsi"
+#include "includes/tapdance.dtsi"
 
 #define BASE 0
 #define LOWER 1
@@ -20,87 +21,6 @@
 };
 
 / {
-
-    behaviors {
-        tdlkc: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_CAPS_LOCK";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp LSHFT>, <&kp CLCK>;
-        };
-        tdma: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Maintain_Q";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp LCTRL>, <&kp LCTRL>, <&sk LCTRL> ;
-        };
-
-        tdh01: tap_dance_2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_SRC";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N1>, <&mc02sc01>, <&mc02sc11>, <&mc02sc21>;
-        };
-
-        tdh02: tap_dance_3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_CAN";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N2>, <&mc02sc02>, <&mc02sc12>, <&mc02sc22>;
-        };
-
-        tdh03: tap_dance_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_LD";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N3>, <&mc02sc03>, <&mc02sc13>, <&mc02sc23>;
-        };
-
-        tdh04: tap_dance_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_AC";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N4>, <&mc02sc04>, <&mc02sc14>, <&mc02sc24>;
-        };
-
-        tdh05: tap_dance_5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_DEV_SERV05";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N5>, <&mc03sd05>;
-        };
-
-        tdh06: tap_dance_6 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_DEV_SERV06";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N6>, <&mc03sd06>;
-        };
-
-        tdh07: tap_dance_7 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_DEV_SERV07";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N7>, <&mc03sd07>;
-        };
-
-        tdh08: tap_dance_8 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_DEV_SERV08";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp N8>, <&mc03sd08>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -113,7 +33,7 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |Play/Ps|  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
             bindings = <
-&kp ESC   &tdh01 &tdh02   &tdh03   &tdh04    &tdh05                         &tdh06    &tdh07    &tdh08    &kp N9   &kp N0   &kp DEL
+&kp ESC   &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                         &kp N6    &kp N7    &kp N8    &kp N9   &kp N0   &kp DEL
 &kp GRAVE &kp Q  &kp W    &kp E    &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O    &kp P    &kp BSPC
 &kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L    &kp SEMI &kp SQT
 &tdlkc    &kp Z  &kp X    &kp C    &kp V     &kp B      &mc01ps1  &mc01ps2  &kp N     &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
@@ -126,16 +46,16 @@
         lower_layer {
 // TODO: Some binds are waiting for shifted keycode support.
 // ------------------------------------------------------------------------------------------------------------
-// |       |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
-// |       |   1 |   2 |   3  |   4  |   5  |                   |   6  |   7   |   8   |   9  |    0  |  F12  |
-// |       |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
-// |       |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
+// | tdh13 |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
+// | tdh14 | td01| td02| td03 | td04 | td05 |                   | td06 | td07  | td08  |   9  |    0  |  F12  |
+// | tdh15 | td09| td10| td11 | td12 |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
+// | tdh16 |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                        &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
-&trans    &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                        &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &kp F12
-&trans    &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                     &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp PIPE
-&trans    &kp EQUAL &kp MINUS &kp KP_PLUS &kp LBRC  &kp RBRC  &kp C_MUTE &mc01ps3 &kp LBKT  &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
+&tdh13    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                        &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
+&tdh14    &tdh01    &tdh02    &tdh03      &ktdh04   &tdh05                        &tdh06    &tdh07   &tdh08          &kp N9    &kp N0    &kp F12
+&tdh15    &tdh09    &tdh10    &tdh11      &tdh12    &tdh12                        &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp PIPE
+&tdh16    &kp EQUAL &kp MINUS &kp KP_PLUS &kp LBRC  &kp RBRC  &kp C_MUTE &mc01ps3 &kp LBKT  &kp RBKT &kp SEMI        &kp COLON &kp BSLH  &trans
                     &trans    &trans      &trans    &trans    &trans     &trans   &trans    &trans   &trans          &trans
             >;
 
