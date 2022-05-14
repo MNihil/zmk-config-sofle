@@ -272,7 +272,7 @@
 
         /*Macros to open Service Manager */
         mc04sm01: mc04sm01 {
-            label = "ZM_mc04_sm01;
+            label = "ZM_mc04_sm01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -285,7 +285,7 @@
         };
 
         mc04sm11: mc04sm11 {
-            label = "ZM_mc04_sm11;
+            label = "ZM_mc04_sm11";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -298,7 +298,7 @@
         };
 
         mc04sm21: mc04sm21 {
-            label = "ZM_mc04_sm21;
+            label = "ZM_mc04_sm21";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -311,7 +311,7 @@
         };
 
         mc04sm02: mc04sm02 {
-            label = "ZM_mc04_sm02;
+            label = "ZM_mc04_sm02";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -324,7 +324,7 @@
         };
 
         mc04sm12: mc04sm12 {
-            label = "ZM_mc04_sm12;
+            label = "ZM_mc04_sm12";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -337,7 +337,7 @@
         };
 
         mc04sm22: mc04sm22 {
-            label = "ZM_mc04_sm22;
+            label = "ZM_mc04_sm22";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -350,7 +350,7 @@
         };
 
         mc04sm03: mc04sm03 {
-            label = "ZM_mc04_sm03;
+            label = "ZM_mc04_sm03";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -363,7 +363,7 @@
         };
 
         mc04sm13: mc04sm13 {
-            label = "ZM_mc04_sm13;
+            label = "ZM_mc04_sm13";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -376,7 +376,7 @@
         };
 
         mc04sm23: mc04sm23 {
-            label = "ZM_mc04_sm23;
+            label = "ZM_mc04_sm23";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -389,7 +389,7 @@
         };
 
         mc04sm04: mc04sm04 {
-            label = "ZM_mc04_sm04;
+            label = "ZM_mc04_sm04";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -402,7 +402,7 @@
         };
 
         mc04sm14: mc04sm14 {
-            label = "ZM_mc04_sm14;
+            label = "ZM_mc04_sm14";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -415,7 +415,7 @@
         };
 
         mc04sm24: mc04sm24 {
-            label = "ZM_mc04_sm24;
+            label = "ZM_mc04_sm24";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
