@@ -1,0 +1,167 @@
+ {
+
+    behaviors {
+        tdlkc: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_CAPS_LOCK";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp LSHFT>, <&kp CLCK>;
+        };
+        tdma: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Maintain_Q";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp LCTRL>, <&kp LCTRL>, <&sk LCTRL> ;
+        };
+
+        /*********************
+        Tap Dance to open Curo
+        *********************/
+        tdh01: tap_dance_01 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Curo_SRC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc02sc01>, <&mc02sc11>, <&mc02sc21>;
+        };
+
+        tdh02: tap_dance_02 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Curo_CAN";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc02sc02>, <&mc02sc12>, <&mc02sc22>;
+        };
+
+        tdh03: tap_dance_03 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Curo_LD";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc02sc03>, <&mc02sc13>, <&mc02sc23>;
+        };
+
+        tdh04: tap_dance_04 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_Curo_AC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc02sc04>, <&mc02sc14>, <&mc02sc24>;
+        };
+
+        /****************************
+        Tap Dance to open Dev Servers
+        *****************************/
+        tdh05: tap_dance_05 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_DEV_SERV05";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc03sd05>;
+        };
+
+        tdh06: tap_dance_06 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_DEV_SERV06";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc03sd06>;
+        };
+
+        tdh07: tap_dance_07 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_DEV_SERV07";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc03sd07>;
+        };
+
+        tdh08: tap_dance_08 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_DEV_SERV08";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc03sd08>;
+        };
+
+        tdh17: tap_dance_17 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_VWR_USAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm04>, <&mc04sm14>, <&mc04sm14>;
+        };
+
+        /********************************
+        Tap Dance to open Scoring Manager
+        ********************************/
+        tdh09: tap_dance_09 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_MNR_SRC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm01>, <&mc04sm11>, <&mc04sm21>;
+        };
+
+        tdh10: tap_dance_10 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_MNR_CAN";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm02>, <&mc04sm12>, <&mc04sm12>;
+        };
+
+        tdh11: tap_dance_11 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_MNR_LD";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm03>, <&mc04sm13>, <&mc04sm13>;
+        };
+
+        tdh12: tap_dance_12 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_MNR_USAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm04>, <&mc04sm14>, <&mc04sm14>;
+        };
+
+        /*******************************
+        Tap Dance to open Scoring Viewer
+        *******************************/
+        tdh13: tap_dance_13 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_VWR_SRC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm01>, <&mc04sm11>, <&mc04sm21>;
+        };
+
+        tdh14: tap_dance_14 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_VWR_CAN";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm02>, <&mc04sm12>, <&mc04sm12>;
+        };
+
+        tdh15: tap_dance_15 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_VWR_LD";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm03>, <&mc04sm13>, <&mc04sm13>;
+        };
+
+        tdh16: tap_dance_16 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_VWR_USAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&mc04sm04>, <&mc04sm14>, <&mc04sm14>;
+        };
+    };
+};
