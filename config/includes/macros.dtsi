@@ -134,5 +134,83 @@
                 , <&macro_tap &kp ENTER>
                 ;
         };
+
+        mc02sc03: mc02sc03 {
+            label = "ZM_mc02_sc03";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp L &kp P>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc13: mc02sc13 {
+            label = "ZM_mc02_sc13";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp L &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc23: mc02sc23 {
+            label = "ZM_mc02_sc23";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp L &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc04: mc02sc04 {
+            label = "ZM_mc02_sc04";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp A &kp P>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc14: mc02sc14 {
+            label = "ZM_mc02_sc14";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp A &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc02sc24: mc02sc24 {
+            label = "ZM_mc02_sc24";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                =  <&mc02scre>
+                , <&macro_tap &kp C &kp A &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
     };
 };
