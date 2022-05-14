@@ -276,7 +276,7 @@
                 ;
         };
 
-        mc03sd08: mc03sv07 {
+        mc03sv07: mc03sv07 {
             label = "ZM_mc03_sv07";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
