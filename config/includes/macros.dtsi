@@ -289,6 +289,19 @@
                 ;
         };
 
+        mc03sv08: mc03sv08 {
+            label = "ZM_mc03_sv08";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp V &kp N0 &kp N8>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
         /*****************************
         Macros to open Scoring Manager
         *****************************/
