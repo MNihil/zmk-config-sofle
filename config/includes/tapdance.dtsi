@@ -1,4 +1,4 @@
- {
+/ {
 
     behaviors {
         tdlkc: tap_dance_0 {
