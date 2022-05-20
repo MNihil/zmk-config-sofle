@@ -630,7 +630,8 @@
                 = <&macro_tap &kp S &kp C &kp O &kp R &kp R &kp I &kp N &kp G>
                 , <&macro_tap &kp I &kp M &kp P &kp L &kp E &kp M &kp E &kp N>
                 , <&macro_tap &kp T &kp A &kp T &kp I &kp O &kp N &kp S &kp T>
-                , <&macro_tap &kp E &kp A &kp M &kp AT &kp curo.com>>
+                , <&macro_tap &kp E &kp A &kp M &kp AT &kp C &kp U &kp R &kp O>
+                , <&macro_tap &kp DOT &kp C &kp O &kp M>
                 ;
         };
 
