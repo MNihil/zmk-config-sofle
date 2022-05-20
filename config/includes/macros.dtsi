@@ -8,7 +8,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
-            tap-ms = <50>;
+            tap-ms = <70>;
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp I>
@@ -617,6 +617,20 @@
                 = <&mc02scre>
                 , <&macro_tap &kp V &kp A &kp W>
                 , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv24: mc06sv24 {
+            label = "ZM_mc05_sv24";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_tap &kp S &kp C &kp O &kp R &kp R &kp I &kp N &kp G>
+                , <&macro_tap &kp I &kp M &kp P &kp L &kp E &kp M &kp E &kp N>
+                , <&macro_tap &kp T &kp A &kp T &kp I &kp O &kp N &kp S &kp T>
+                , <&macro_tap &kp E &kp A &kp M &kp AT &kp curo.com>>
                 ;
         };
 
