@@ -13,7 +13,10 @@
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp I>
                 , <&macro_release &kp LSHFT>
-                , <&macro_tap &kp C &kp A &kp N &kp D &kp O &kp T &kp H &kp I &kp S &kp N0 &kp EXCL &kp EXCL>
+                , <&macro_tap &kp C &kp A &kp N &kp D &kp O &kp T &kp H &kp I &kp S &kp N0>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp N1 &kp N1>
+                , <&macro_release &kp LSHFT>
                 ;
         };
 
@@ -638,10 +641,10 @@
             label = "ZM_mc05_sv01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
+            wait-ms = <70>;
+            tap-ms = <70>;
             bindings
-                = <&macro_tap &kp S &kp C &kp O &kp R &kp R &kp I &kp N &kp G>
+                = <&macro_tap &kp S &kp C &kp O &kp R &kp I &kp N &kp G>
                 , <&macro_tap &kp I &kp M &kp P &kp L &kp E &kp M &kp E &kp N>
                 , <&macro_tap &kp T &kp A &kp T &kp I &kp O &kp N &kp S &kp T>
                 , <&macro_tap &kp E &kp A &kp M &kp AT &kp C &kp U &kp R &kp O>
