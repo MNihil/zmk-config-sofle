@@ -7,7 +7,7 @@
             label = "ZM_mc01_psc01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
+            wait-ms = <70>;
             tap-ms = <70>;
             bindings
                 = <&macro_press &kp LSHFT>
@@ -21,8 +21,8 @@
             label = "ZM_mc01_psc02";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <50>;
+            wait-ms = <70>;
+            tap-ms = <70>;
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp I &kp C>
@@ -35,13 +35,24 @@
             label = "ZM_mc01_psc03";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <50>;
+            wait-ms = <70>;
+            tap-ms = <70>;
             bindings
                 = <&macro_press &kp LSHFT>
                 , <&macro_tap &kp I &kp C>
                 , <&macro_release &kp LSHFT>
                 , <&macro_tap &kp A &kp N &kp D &kp O &kp N0 &kp EXCL &kp EXCL>
+                ;
+        };
+
+        mc01ps4: mc01ps4 {
+            label = "ZM_mc01_psc43";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <70>;
+            tap-ms = <70>;
+            bindings
+                = <&macro_tap &kp S &kp P &kp E &kp E &kp D &kp Y &kp N1 &kp N2 &kp N3 &kp DLLR>
                 ;
         };
 
@@ -620,8 +631,11 @@
                 ;
         };
 
-        mc06sv24: mc06sv24 {
-            label = "ZM_mc05_sv24";
+        /*****************************
+        Macro to write SIT email
+        *****************************/
+        mc06sv01: mc06sv01 {
+            label = "ZM_mc05_sv01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
