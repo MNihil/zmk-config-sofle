@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_Curo_SRC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc02sc01>, <&mc02sc11>, <&mc02sc21>;
         };
 
@@ -31,7 +31,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_Curo_CAN";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc02sc02>, <&mc02sc12>, <&mc02sc22>;
         };
 
@@ -39,7 +39,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_Curo_LD";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc02sc03>, <&mc02sc13>, <&mc02sc23>;
         };
 
@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_Curo_AC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc02sc04>, <&mc02sc14>, <&mc02sc24>;
         };
 
@@ -58,7 +58,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_DEV_SERV05";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc03sd05>;
         };
 
@@ -66,7 +66,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_DEV_SERV06";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc03sd06>;
         };
 
@@ -74,7 +74,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_DEV_SERV07";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc03sd07>;
         };
 
@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_DEV_SERV08";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc03sd08>;
         };
 
@@ -90,7 +90,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_CURIA_SERV07";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc03sv07>, <&mc03sv08>;
         };
 
@@ -101,7 +101,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_MNR_SRC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm01>, <&mc04sm11>, <&mc04sm21>;
         };
 
@@ -109,7 +109,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_MNR_CAN";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm02>, <&mc04sm12>, <&mc04sm12>;
         };
 
@@ -117,7 +117,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_MNR_LD";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm03>, <&mc04sm13>, <&mc04sm13>;
         };
 
@@ -125,7 +125,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_MNR_USAC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm04>, <&mc04sm14>, <&mc04sm14>;
         };
 
@@ -136,7 +136,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_VWR_SRC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm01>, <&mc04sm11>, <&mc04sm21>;
         };
 
@@ -144,7 +144,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_VWR_CAN";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm02>, <&mc04sm12>, <&mc04sm12>;
         };
 
@@ -152,7 +152,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_VWR_LD";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm03>, <&mc04sm13>, <&mc04sm13>;
         };
 
@@ -160,7 +160,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_VWR_USAC";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&mc04sm04>, <&mc04sm14>, <&mc04sm14>;
         };
     };
