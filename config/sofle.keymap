@@ -30,8 +30,8 @@
 // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |  DEL  |
 // |  `    |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
 // |  TAB  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |Play/Ps|  N   |  M    |  ,    |  .   |   /   | SHIFT |
-//               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
+// | SHIFT |  Z  |  X  |  C   |  V   |  B   |  cnt1  |  | cnt2  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
+//               | GUI | ALT  | CTRL | LOWER|  SPACE |  | ENTER | RAISE| CTRL  | ALT   | GUI  |
             bindings = <
 &kp ESC   &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                         &kp N6    &kp N7    &kp N8    &kp N9   &kp N0   &kp DEL
 &kp GRAVE &kp Q  &kp W    &kp E    &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O    &kp P    &kp BSPC
@@ -48,8 +48,8 @@
 // ------------------------------------------------------------------------------------------------------------
 // | tdh13 |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
 // | tdh14 | td01| td02| td03 | td04 | td05 |                   | td06 | td07  | td08  |   9  |    0  |  F12  |
-// | tdh15 | td09| td10| td11 | td12 |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
-// | tdh16 |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
+// | tdh15 | td09| td10| td11 | td12 | td17 |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
+// | tdh16 |  =  |  -  |  +   |  {   |  }   |  MUTE  |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
 &tdh13    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                        &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
