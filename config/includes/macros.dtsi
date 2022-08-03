@@ -638,7 +638,7 @@
         Macro to write SIT email
         *****************************/
         mc06sv01: mc06sv01 {
-            label = "ZM_mc05_sv01";
+            label = "ZM_mc06_sv01";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <70>;
