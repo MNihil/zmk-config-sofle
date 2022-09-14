@@ -27,22 +27,6 @@
             bindings = <&mc02sc01>, <&mc02sc11>, <&mc02sc21>;
         };
 
-        tdh02: tap_dance_02 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_CAN";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc02sc02>, <&mc02sc12>, <&mc02sc22>;
-        };
-
-        tdh03: tap_dance_03 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Curo_LD";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc02sc03>, <&mc02sc13>, <&mc02sc23>;
-        };
-
         tdh04: tap_dance_04 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_Curo_AC";
@@ -105,22 +89,6 @@
             bindings = <&mc04sm01>, <&mc04sm11>, <&mc04sm21>;
         };
 
-        tdh10: tap_dance_10 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_S_MNR_CAN";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc04sm02>, <&mc04sm12>, <&mc04sm12>;
-        };
-
-        tdh11: tap_dance_11 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_S_MNR_LD";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc04sm03>, <&mc04sm13>, <&mc04sm13>;
-        };
-
         tdh12: tap_dance_12 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_MNR_USAC";
@@ -138,22 +106,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <350>;
             bindings = <&mc05sv01>, <&mc05sv11>, <&mc05sv21>;
-        };
-
-        tdh14: tap_dance_14 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_S_VWR_CAN";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc05sv02>, <&mc05sv12>, <&mc05sv22>;
-        };
-
-        tdh15: tap_dance_15 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_S_VWR_LD";
-            #binding-cells = <0>;
-            tapping-term-ms = <350>;
-            bindings = <&mc05sv03>, <&mc05sv13>, <&mc05sv23>;
         };
 
         tdh16: tap_dance_16 {
@@ -175,7 +127,6 @@
             tapping-term-ms = <350>;
             bindings = <&mc05sv01>, <&mc05sv11>, <&mc05sv21>;
         };
-
 
         tdh19: tap_dance_19 {
             compatible = "zmk,behavior-tap-dance";
