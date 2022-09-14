@@ -163,5 +163,26 @@
             tapping-term-ms = <350>;
             bindings = <&mc05sv04>, <&mc05sv14>, <&mc05sv24>;
         };
+
+        
+        /*******************************
+        Tap Dance to open Cito
+        *******************************/
+        tdh17: tap_dance_17 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_CIT_SRC";
+            #binding-cells = <0>;
+            tapping-term-ms = <350>;
+            bindings = <&mc05sv01>, <&mc05sv11>, <&mc05sv21>;
+        };
+
+
+        tdh19: tap_dance_19 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_S_CIT_USAC";
+            #binding-cells = <0>;
+            tapping-term-ms = <350>;
+            bindings = <&mc05sv04>, <&mc05sv14>, <&mc05sv24>;
+        };
     };
 };

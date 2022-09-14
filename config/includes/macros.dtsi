@@ -118,84 +118,6 @@
                 ;
         };
 
-        mc02sc02: mc02sc02 {
-            label = "ZM_mc02_sc02";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp C &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc02sc12: mc02sc12 {
-            label = "ZM_mc02_sc12";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp C &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc02sc22: mc02sc22 {
-            label = "ZM_mc02_sc22";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp C &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc02sc03: mc02sc03 {
-            label = "ZM_mc02_sc03";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp L &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc02sc13: mc02sc13 {
-            label = "ZM_mc02_sc13";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp L &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc02sc23: mc02sc23 {
-            label = "ZM_mc02_sc23";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp C &kp L &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
         mc02sc04: mc02sc04 {
             label = "ZM_mc02_sc04";
             compatible = "zmk,behavior-macro";
@@ -358,84 +280,6 @@
                 ;
         };
 
-        mc04sm02: mc04sm02 {
-            label = "ZM_mc04_sm02";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp C &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc04sm12: mc04sm12 {
-            label = "ZM_mc04_sm12";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp C &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc04sm22: mc04sm22 {
-            label = "ZM_mc04_sm22";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp C &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc04sm03: mc04sm03 {
-            label = "ZM_mc04_sm03";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp L &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc04sm13: mc04sm13 {
-            label = "ZM_mc04_sm13";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp L &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc04sm23: mc04sm23 {
-            label = "ZM_mc04_sm23";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp M &kp L &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
         mc04sm04: mc04sm04 {
             label = "ZM_mc04_sm04";
             compatible = "zmk,behavior-macro";
@@ -517,84 +361,6 @@
                 ;
         };
 
-        mc05sv02: mc05sv02 {
-            label = "ZM_mc05_sv02";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp C &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc05sv12: mc05sv12 {
-            label = "ZM_mc05_sv12";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp C &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc05sv22: mc05sv22 {
-            label = "ZM_mc05_sv22";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp C &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc05sv03: mc05sv03 {
-            label = "ZM_mc05_sv03";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp L &kp P>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc05sv13: mc05sv13 {
-            label = "ZM_mc05_sv13";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp L &kp Q>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
-        mc05sv23: mc05sv23 {
-            label = "ZM_mc05_sv23";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-            bindings
-                = <&mc02scre>
-                , <&macro_tap &kp V &kp L &kp W>
-                , <&macro_tap &kp ENTER>
-                ;
-        };
-
         mc05sv04: mc05sv04 {
             label = "ZM_mc05_sv04";
             compatible = "zmk,behavior-macro";
@@ -635,6 +401,87 @@
         };
 
         /*****************************
+        Macros to open Cito
+        *****************************/
+        mc06sv01: mc06sv01 {
+            label = "ZM_mc06_sv01";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp T &kp S &kp P>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv11: mc06sv11 {
+            label = "ZM_mc06_sv11";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp T &kp S &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv21: mc06sv21 {
+            label = "ZM_mc06_sv21";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp T &kp S &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv04: mc06sv04 {
+            label = "ZM_mc06_sv04";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp T &kp A &kp P>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv14: mc06sv14 {
+            label = "ZM_mc06_sv14";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp ^ &kp A &kp Q>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        mc06sv24: mc06sv24 {
+            label = "ZM_mc06_sv24";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+            bindings
+                = <&mc02scre>
+                , <&macro_tap &kp T &kp A &kp W>
+                , <&macro_tap &kp ENTER>
+                ;
+        };
+
+        /*****************************
         Macro to write SIT email
         *****************************/
         mc06sv01: mc06sv01 {
@@ -648,7 +495,7 @@
                 , <&macro_tap &kp I &kp M &kp P &kp L &kp E &kp M &kp E &kp N>
                 , <&macro_tap &kp T &kp A &kp T &kp I &kp O &kp N &kp S &kp T>
                 , <&macro_tap &kp E &kp A &kp M &kp AT &kp C &kp U &kp R &kp O>
-                , <&macro_tap &kp DOT &kp C &kp O &kp M>
+                , <&macro_tap &kp DOT> // &kp C &kp O &kp M>
                 ;
         };
 
