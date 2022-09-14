@@ -463,7 +463,7 @@
             tap-ms = <30>;
             bindings
                 = <&mc02scre>
-                , <&macro_tap &kp ^ &kp A &kp Q>
+                , <&macro_tap &kp T &kp A &kp Q>
                 , <&macro_tap &kp ENTER>
                 ;
         };
