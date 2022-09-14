@@ -120,7 +120,7 @@
         /*******************************
         Tap Dance to open Cito
         *******************************/
-        tdh17: tap_dance_17 {
+        tdh18: tap_dance_18 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_S_CIT_SRC";
             #binding-cells = <0>;
